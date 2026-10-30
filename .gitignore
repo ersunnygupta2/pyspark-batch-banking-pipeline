@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Virtual environment
+.venv/
+
+# IDE / OS
+.vscode/
+.DS_Store
+
+# Generated pipeline data
+data/bronze/
+data/silver/
+data/gold/
+data/quarantine/
+data/control/
+
+# Logs
+logs/
+*.log
+
+# Secrets
+.env
+
+# Spark local files
+.sparkStaging/
+metastore_db/
+derby.log

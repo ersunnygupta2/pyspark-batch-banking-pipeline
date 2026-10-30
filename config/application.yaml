@@ -1,0 +1,9 @@
+paths:
+  source_transactions: "data/source"
+  bronze_transactions: "data/bronze/transactions"
+  silver_transactions: "data/silver/transactions"
+  gold_transactions: "data/gold/transactions"
+  control_file: "data/control/processed_files.json"
+  silver_control_file: "data/control/silver_processed_batches.json"
+  quarantine_transactions: "data/quarantine/transactions"
+  gold_control_file: "data/control/gold_processed_batches.json"

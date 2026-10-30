@@ -1,0 +1,4 @@
+pyspark
+pytest
+pyyaml
+delta-spark
